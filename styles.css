@@ -1,0 +1,18 @@
+.main-div{
+    margin: 250px;
+    padding: 10px;
+    border-style: solid;
+    background-color: #F6F2E6;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+body{
+    background-color: #CEA36C;
+}
+.login{
+    font: bold;
+    font-size: 40px;
+}
+.errormessage{
+    color: red;
+}
