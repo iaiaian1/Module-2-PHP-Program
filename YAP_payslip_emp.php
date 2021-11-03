@@ -44,8 +44,13 @@
 
         //fclose($payhandle);
         //exit();
+        // if(feof($payhandle)){
+        //     exit();
+        //     echo"hello world";
+        // }
 
     }
     //Close file
+    //exit();
     fclose($payhandle);
 ?>

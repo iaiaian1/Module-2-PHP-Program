@@ -19,7 +19,7 @@
 
     $myfile = "YAP_employee.txt";
     $handle = fopen($myfile, 'a');
-    fwrite($handle,"$employeenumberPOST,$lastnamePOST,$firstnamePOST,$middlenamePOST|$salaryPOST,$allowancePOST,$overloadPOST|$sssPOST,$pagibigPOST,$philhealthPOST\n");
+    fwrite($handle,"\n$employeenumberPOST,$lastnamePOST,$firstnamePOST,$middlenamePOST|$salaryPOST,$allowancePOST,$overloadPOST|$sssPOST,$pagibigPOST,$philhealthPOST");
     fclose($handle);
 
     //2/2 SMALL DESIGN FOR SUCCESS POPUP
