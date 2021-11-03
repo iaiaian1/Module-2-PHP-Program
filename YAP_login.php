@@ -26,6 +26,7 @@ session_start();
                 <input type="password" name="passwordFORM" class = "password" placeholder="Password.." required>
                 <br><br>
                 <input type="submit" class = "submit">
+                <a href="YAP_main.php">Already Logged in?</a>
                 
                 <!-- Simple check if an account is logged in -->
                 <p>Logged in as: 
